@@ -1,1 +1,31 @@
-@import "jekyll-theme-minimal";
+---
+---
+
+@import "{{ site.theme }}";
+
+header{
+    text-align: center;
+    
+    img{
+        border-radius: 2rem;
+        padding-bottom: 1rem;
+    }
+}
+
+body{
+    background: linear-gradient(74deg, rgba(122,43,0,1) 0%, rgba(252,69,69,1) 47%);
+    color: white;
+}
+
+a{
+    color: white;
+}
+
+a:hover,a:focus{
+    color: white;
+    text-decoration: underline;
+}
+
+.downloads a{
+    text-decoration: none;
+}
