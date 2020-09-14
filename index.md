@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Aramaic (syriac) Keyboard (ܣܘܪܝܝܐ, ܣܘܼܪܲܝܬ) for macOS
 ---
 
 ### Character list
