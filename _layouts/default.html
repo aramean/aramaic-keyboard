@@ -21,7 +21,7 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        <p class="view"><h3>Current version:</h3> <small><a href="{{ site.github.latest_release.browser_download_url }}">x.x.x</a></small></p>
+        <p class="view"><h3>Current version:</h3><small>{{ site.github.latest_release.browser_download_url }}</small></p>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
@@ -29,7 +29,7 @@
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>DMG File for macOS</strong></a></li>
+          <li><a href="{{ site.github.latest_release.browser_download_url }}">Download <strong>DMG File for macOS</strong></a></li>
         </ul>
         {% endif %}
       </header>
