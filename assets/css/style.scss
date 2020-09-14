@@ -9,7 +9,8 @@ header{
     img{
         border-radius: 2rem;
         margin-bottom: 1rem;
-        border: 5px solid rgba(255,255,255, .2)
+        margin-top: 1rem;
+        border: 5px solid rgba(220,0,0, 1);
     }
 }
 
@@ -61,7 +62,7 @@ a:hover,a:focus{
 
 table{
     box-shadow: 1px 1px 20px 20px rgba(0,0,0, .1);
-    border-radius: .5rem;
+    border: 5px solid rgba(220,0,0, .25);
     
     th{
         color: white;
@@ -70,13 +71,18 @@ table{
 
     th, td {
         padding: .5rem 1rem .5rem 1rem;
+        border-color: rgba(220,0,0, 1);
     }
 
     tr{
-        &:first-child:hover{
-            background-color: inherit;
-            color: inherit;
+        &:first-child{
+        
+            &:hover{
+                background-color: inherit;
+                color: inherit;
+            }
         }
+
         &:hover{
             background-color:  rgba(0,0,0, .1);
             color: yellow;
