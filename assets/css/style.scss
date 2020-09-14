@@ -31,8 +31,32 @@ a:hover,a:focus{
     text-decoration: underline;
 }
 
-.downloads a{
-    text-decoration: none;
+.downloads{
+    text-align: center;
+    height: 50px;
+    margin: 0 auto;
+
+    li{
+        float: unset;
+        border-right: 0;
+        margin: 0 auto;
+        width: unset;
+    }
+
+    a{
+        text-decoration: none;
+        box-shadow: 1px 1px 10px rgba(0,0,0, .2);
+        height: 45px;
+        line-height: 1.3;
+
+        &:hover{
+            box-shadow: 1px 1px 10px rgba(0,0,0, .5);
+        }
+
+        &:active{
+            background-color: white;
+        }
+    }
 }
 
 table{
