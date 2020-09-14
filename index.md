@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Aramaic (syriac) Keyboard (ܣܘܪܝܝܐ, ܣܘܼܪܲܝܬ) for macOS
+image:
+  path: /assets/img/aramean-syrian_flag.svg
 ---
 
 ### Character list
