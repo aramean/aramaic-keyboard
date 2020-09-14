@@ -29,7 +29,7 @@
 
         {% if site.show_downloads %}
         <ul class="downloads">
-          {{ site.github.latest_release }}
+          {{ site.github.latest_release.assets }}
           <li><a href="{{ site.github.latest_release.assets.browser_download_url }}">Download <strong>DMG File for macOS</strong></a></li>
         </ul>
         {% endif %}
