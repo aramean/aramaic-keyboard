@@ -37,5 +37,25 @@ a:hover,a:focus{
 
 table{
     box-shadow: 1px 1px 20px 20px rgba(0,0,0, .1);
-    padding: 1rem;
+    border-radius: .5rem;
+    
+    th{
+        color: white;
+        background-color: black;
+    }
+
+    th, td {
+        padding: .5rem 1rem .5rem 1rem;
+    }
+
+    tr{
+        &:first-child:hover{
+            background-color: inherit;
+            color: inherit;
+        }
+        &:hover{
+            background-color:  rgba(0,0,0, .1);
+            color: yellow;
+        }
+    }
 }
